@@ -1,103 +1,108 @@
-Introduction:
-=============
+#Talent Hacked
 
-Talent Hacked is a final project undertaken during the last two weeks of Makers Academy's 12 week developer programme.
+##Table of Contents
 
-More importantly it is a business venture that Josh Fail-Brown, a makers graduate, is pursuing after the course. Members in the final project team (specified below) have each contributed to bring this application to life.
+* [Screenshot](#screenshot)
+* [General Description](#general-description)
+* [See it Live on Heroku](#see-it-live-on-heroku)
+* [Browsers](#browsers)
+* [Testing](#testing)
+* [The team](#the-team)
 
-Talent Hacked is a business venture aimed to lean into the incredible talent emerging from academies like Makers along with the growing demand for developers within the city of London.
 
-The aim of the Talent-Hacked, and therefore this application, is to act as a project management business, connecting developers that have the right skills to clients with project demands.
+##Screenshot
+
+<a href="https://raw.githubusercontent.com/nadavmatalon/Talent_Hacked_Code/master/app/assets/images/talent_hacked_screenshot.png">
+	<img src="app/assets/images/talent_hacked_screenshot.png" width="720px" height="400px" />
+</a>
 
 
-Application:
-============
+##General Description
 
-- The application allows developers and businesses/clients to resigter online
+<p><strong>Talent Hacked</strong> is a [Ruby on Rails](http://rubyonrails.org/) 
+app written jointly by a team of 7 students at 
+[Makers Mcademy](http://www.makersacademy.com/) 
+as our final project.
 
-- Developers are able to:
-	- Update their professional profile and contact details manually
-	- Alternatively they can choose to sign-in with and import their LinkedIn profile
-	- Manage their work through a customized dashboard consisting of offers, current, declined and 	finished projects
-	- Receive incoming offers, allowing for specified project quotes and accept or reject capabilities 
+The aim of the app is to bring together clients seeking medium-size software 
+solutions on the one-hand and freelance developers on the other.
 
-- Clients are able to:
-	- Update their business profile
-	- Create new development projects
-	- Send offers to developers
+By gathering detailed information from both clients (project requirements, budget, 
+timeline, etc.) and developers (previous experience, programming skills etc.), the
+idea is to create a pool of developers which can then be seamlessly matched to 
+clients' projects based on their projects' needs.
 
-- The application macthes the most appropriate developers based on their skill set with a client's unique demands.
+Given the relatively large and inexperienced nature of [The team](#the-team) 
+developing the app, much of the focus during the 2 weeks of developments 
+was directed at learning effective collaborative work and completing 
+the first itteration of the app.
 
-Technologies:
-============
-Ruby (version 2.1.1)
-Rails
-Postgresql
-Capybara
-Rspec
-Devise
-Paperclip
-Stripe payment system
-Poltergeist
-Amazon Web Services S3
-Bootstrap
-Google Maps API
-Heroku
-Websockets
-Javascript
 
-Gems used:
-=============
-devise
-omniauth-linkedin-oauth2
-bootstrap-sass
-font-awesome-rails
-gritter
-paperclip
-rmagick
-aws-sdk
-thin
-activeadmin
-polyamorous
-ransack
-formtastic
-rspec-rails
-capybara
-rspec-collection_matchers
-database_cleaner
-poltergeist
-byebug
-launchy
+##See it Live on Heroku
 
-Heroku
-======
+A live version of the app can be found at:
+
 http://talent-hacked.herokuapp.com/
 
-How to run the program:
-======================
-
-- git clone https://github.com/JoshFB/Talent_Hacked_Code
-- cd Talent_Hacked_Code
-- bundle install
-- bin/rake db:create
-- bin/rake db:migrate 
-- bin/rake db:migrate RAILS_ENV=test
-- thin start
+As we're using Heroku's free hosting service, the app may take a bit of time to upload<br/>
+(Heroku's giros take time to wake up...), so please be patient.
 
 
-How to run tests:
-================
-- cd Talent_Hacked_Code
-- rspec
+##Browsers
 
-Authors:
-==============
-Josh Fail-Brown			https://github.com/JoshFB/
-Kate Hamilton				https://github.com/katehamilton247
-Nadav Matalon	 			https://github.com/nadavmatalon
-Will Allen		 			https://github.com/painted
-Fitsum Teklehaimanot		https://github.com/fitstek
-Faezrah Rizalman 			https://github.com/frism
-Johann Bornman				https://github.com/jchb9
+ This app has been tested with and supports the following browsers:
 
+* __Google Chrome__ (36.0)
+* __Mozilla Firefox__ (31.0)
+* __Apple Safari__ (7.0.5) (see note below)
+
+
+##Testing
+
+Tests were written with Rspec (3.0.3) &amp; Capybara (2.4.1)
+
+The tests cover both back-end logic and front-end functionality.
+
+To run the tests in terminal: 
+
+```bash
+$> cd Talent_Hacked_Code
+$> rspec
+```
+
+##The Team
+
+<a href= "https://github.com/frism">
+	<img alt="Faezrah Rizalman" data-user="6030997" height="20" src="https://avatars3.githubusercontent.com/u/6030997?v=2&amp;s=40" width="20">
+</a>
+[Faezrah Rizalman](https://github.com/frism)
+
+<a href= "https://github.com/katehamilton247">
+	<img alt="Kate Hamilton" data-user="7556227" height="20" src="https://avatars3.githubusercontent.com/u/7556227?v=2&amp;s=40" width="20">
+</a>
+[Kate Hamilton](https://github.com/katehamilton247)
+
+<a href= "https://github.com/JoshFB/">
+		<img alt="Josh Fail-Brown" data-user="7129117" height="20" src="https://avatars3.githubusercontent.com/u/7129117?v=2&amp;s=40" width="20">
+	</a>
+[Josh Fail-Brown](https://github.com/JoshFB/)
+
+<a href= "https://github.com/fitstek">
+		<img alt="Fitsum Teklehaimanot" data-user="7556221" height="20" src="https://avatars3.githubusercontent.com/u/7556221?v=2&amp;s=40" width="20">
+	</a>
+[Fitsum Teklehaimanot](https://github.com/fitstek)
+
+<a href= "https://github.com/painted">
+		<img alt="Will Allen" data-user="7057258" height="20" src="https://avatars3.githubusercontent.com/u/7057258?v=2&amp;s=40" width="20">
+	</a>
+[Will Allen](https://github.com/painted)
+
+<a href= "https://github.com/jchb9">
+	<img alt="Johann Bornman" data-user="7556226" height="20" src="https://avatars3.githubusercontent.com/u/7556226?v=2&amp;s=40" width="20">
+<a>
+[Johann Bornman](https://github.com/jchb9)
+
+<a href= "https://github.com/nadavmatalon">
+<img alt="Nadav Matalon" data-user="7556253" height="20" src="https://avatars3.githubusercontent.com/u/7556253?v=2&amp;s=40" width="20"></a>
+[Nadav Matalon](https://github.com/nadavmatalon)
 
