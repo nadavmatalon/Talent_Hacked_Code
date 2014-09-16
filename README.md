@@ -39,9 +39,8 @@ the first itteration of the app.
 
 The app was developed using [TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
 (tests written with [Rspec](http://rspec.info/) &amp; 
-[Capybara](https://github.com/jnicklas/capybara)). 
-
-It uses a [PostgreSQL](http://www.postgresql.org/) database, as well as the 
+[Capybara](https://github.com/jnicklas/capybara)). It uses a 
+[PostgreSQL](http://www.postgresql.org/) database, as well as the 
 following gems: 
 
 * [Devise](https://github.com/plataformatec/devise)
@@ -55,7 +54,7 @@ following gems:
 
 A live version of the app can be found at:
 
-http://talent-hacked.herokuapp.com/
+[Talent Hacked on Heroku](http://talent-hacked.herokuapp.com/)
 
 As we're using Heroku's free hosting service, the app may take a bit of time to upload<br/>
 (Heroku's giros take time to wake up...), so please be patient.
@@ -72,7 +71,7 @@ As we're using Heroku's free hosting service, the app may take a bit of time to 
 
 ##Testing
 
-Tests were written with Rspec (3.0.3) &amp; Capybara (2.4.1)
+Tests were written with [Rspec](http://rspec.info/) (3.0.3) &amp; [Capybara](https://github.com/jnicklas/capybara) (2.4.1).
 
 The tests cover both back-end logic and front-end functionality.
 
