@@ -13,7 +13,7 @@
 ##Screenshot
 
 <a href="https://raw.githubusercontent.com/nadavmatalon/Talent_Hacked_Code/master/app/assets/images/talent_hacked_screenshot.png">
-	<img src="app/assets/images/talent_hacked_screenshot.png" width="720px" height="400px" />
+	<img src="app/assets/images/talent_hacked_screenshot.png" width="690px" height="400px" />
 </a>
 
 
@@ -24,8 +24,8 @@ app written jointly by a team of 7 students at
 [Makers Mcademy](http://www.makersacademy.com/) 
 as our final project.
 
-The aim of the app is to bring together clients seeking medium-size software 
-solutions on the one-hand and freelance developers on the other.
+The aim of the __Talent Hacked__ is to bring together clients seeking medium-size 
+software solutions on the one-hand and freelance developers on the other.
 
 By gathering detailed information from both clients (project requirements, budget, 
 timeline, etc.) and developers (previous experience, programming skills etc.), the
@@ -33,9 +33,22 @@ idea is to create a pool of developers which can then be seamlessly matched to
 clients' projects based on their projects' needs.
 
 Given the relatively large and inexperienced nature of [The team](#the-team) 
-developing the app, much of the focus during the 2 weeks of developments 
-was directed at learning effective collaborative work and completing 
+developing the app, much of the focus during the 2 weeks of development
+was directed at learning to produce effective collaborative work and completing 
 the first itteration of the app.
+
+The app was developed using [TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
+(tests written with [Rspec](http://rspec.info/) &amp; 
+[Capybara](https://github.com/jnicklas/capybara)). 
+
+It uses a [PostgreSQL](http://www.postgresql.org/) database, as well as the 
+following gems: 
+
+* [Devise](https://github.com/plataformatec/devise)
+* [Omniauth2](https://github.com/intridea/omniauth-oauth2)
+* [Bootstrap](http://getbootstrap.com/)
+* [Amazon S3](http://aws.amazon.com/s3/)
+* [Paperclip](https://github.com/thoughtbot/paperclip)
 
 
 ##See it Live on Heroku
